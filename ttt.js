@@ -63,7 +63,7 @@ const checkWin = () => {
     return true;
   } else if (spots['7'] === spots['8'] && spots['8'] === spots['9']) {
     return true;
-  } else if (spots['1'] === spots['4'] && spots['4'] === spots['5']) {
+  } else if (spots['1'] === spots['4'] && spots['4'] === spots['7']) {
     return true;
   } else if (spots['2'] === spots['5'] && spots['5'] === spots['8']) {
     return true;
